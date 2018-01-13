@@ -1,16 +1,15 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# donutfinder.io
-- project: donutfinder.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.
+- project: Be in harmony
+  role: Developer
+  duration: 2016. 12 – 2017. 06
+  url: "http://capstone.cs.kookmin.ac.kr/timbyeol-jinhaeng-hyeonhwang-1dangye-1/5jo-jomyeong"
+  description: 졸업프로젝트로 코디를 어려워하는 사람들을 위한 "Be in harmony" 프로젝트를 진행하였습니다. 저는 이 프로젝트에서 특정 키워드(옷 색상과 종류)를 구글 이미지 검색으로 크롤링 한 이미지를 받아와서, OpenCV의 Classifier인 haarcascade를 이용하여 사람의 얼굴을 인식하고, 얼굴 크기를 바탕으로 상의와 하의를 추출한 뒤 칼라 히스토그램을 이용하여 각각의 주 색상을 추출하였습니다. 또한 검색한 키워드의 색상과 추출한 색상이 매핑되는지 판별하는 알고리즘을 구현하였습니다.
 
-#Springfield Donut Eater's User Group
-- project: Springfield Donut Eater's User Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+
+- project: PororoT 어드민 페이지
+  role: Front-End Developer
+  duration: 2017. 06 - 2018. 01
   # url: "#"
-  description: DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.
+  description: 진인사컴퍼니에서 약 7개월간 뽀로롯 어플리케이션의 어드민 페이지의 프론트엔드 개발을 담당했습니다.

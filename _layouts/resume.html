@@ -13,7 +13,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="images/avatar.png" alt="my photo" class="avatar no-print" itemprop="image">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -46,12 +46,54 @@
 
       </header>
 
+      {% if site.resume_section_interests %}
+      <!-- begin Interests -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>나에 대해서...</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for interest in site.data.interests %}
+            <li>{{ interest.description }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      </section>
+      <!-- end Interests -->
+      {% endif %}
+
+      {% if site.resume_section_education %}
+      <!-- begin Experience -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>학력</h2>
+        </header>
+
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">2010 - 2012 백마고등학교</h3>
+          <h4 class="resume-item-details" itemprop="description">자연계열 인문계 졸업</h4>
+        </div>
+
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">2014 - 2018 국민대학교</h3>
+          <h4 class="resume-item-details" itemprop="description">컴퓨터공학전공 졸업 예정</h4>
+        </div>
+
+      </section>
+      <!-- end Education -->
+      {% endif %}
+
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Experience</h2>
+          <h2>경력사항</h2>
         </header>
 
         {% for job in site.data.experience %}
@@ -67,39 +109,11 @@
       {% endif %}
 
 
-      {% if site.resume_section_education %}
-      <!-- begin Education -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2>Education</h2>
-        </header>
-
-        {% for education in site.data.education %}
-        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
-          <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
-          <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
-          <p class="resume-item-copy" itemprop="description">
-            <ul class="resume-item-list">
-              {% for award in education.awards %}
-              <li>{{ award.award }}</li>
-              {% endfor %}
-            </ul></h5>
-
-
-          <p class="resume-item-copy">{{ education.summary }}</p>
-        </div>
-        {% endfor %}
-      </section>
-      <!-- end Education -->
-      {% endif %}
-
-
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Projects</h2>
+          <h2>프로젝트</h2>
         </header>
 
         {% for project in site.data.projects %}
@@ -115,12 +129,27 @@
       <!-- end Projects -->
       {% endif %}
 
+      {% if site.resume_section_language %}
+      <!-- begin Language -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>어학능력</h2>
+        </header>
+
+        <div class="resume-item">
+          <h3 class="resume-item-title" itemprop="name">TOEIC &nbsp;&nbsp;&nbsp;&nbsp; 820</h3>
+        </div>
+
+      </section>
+      <!-- end Language -->
+      {% endif %}
+
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>기술스택</h2>
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
@@ -138,7 +167,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Recognition</h2>
+          <h2>수상실적</h2>
         </header>
 
         {% for recognition in site.data.recognitions %}
@@ -171,26 +200,6 @@
 
       </section>
       <!-- end Associations -->
-      {% endif %}
-
-      {% if site.resume_section_interests %}
-      <!-- begin Interests -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Outside Interests</h2>
-        </header>
-
-        <div class="resume-item">
-          <ul class="resume-item-list">
-            {% for interest in site.data.interests %}
-            <li>{{ interest.description }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-
-      </section>
-      <!-- end Interests -->
       {% endif %}
 
       {% if site.resume_section_links %}
@@ -230,8 +239,9 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line">
+          © 2018 <a href="http://hyowonee.github.io">Choi Hyowon</a>. All rights reserved.
+        </p>
       </footer>
 
     </div>

@@ -1,19 +1,20 @@
 # Jobs
-# Springfield Nuclear Power Plant
-- company: Springfield Nuclear Power Plant
-  position: Safety Inspector
-  duration: Nov, 1980 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>Ate lots of donuts</li><li>Fell asleep rarely</li><li>Left promptly at end of day (sometimes earlier)</li></ul>
+- company: KOBOT 동아리
+  position: A.I. 팀
+  duration: 2015. 01 - 2016. 01
+  summary: 휴머노이드 로봇을 다루고 여러 관련 대회에 나갔습니다.(SOC, R-biz Challenge, FIRA) 임베디드 시스템에 대한 기초 지식을 쌓았습니다.
 
-# Windmill Crank Operator
-- company: Sir Putt-A-Lot's Merrie Olde Fun Centre
-  position: Safety Inspector
-  duration:  Jun, 1978 &mdash; Sept, 1979
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: 단과대학 학생회 활동
+  position: 홍보부 부장
+  duration: 2015. 01 - 2016. 01
+  summary: 학부 학생회의 경험을 바탕으로 단과대학 홍보부 부장으로서 전자정보통신대학의 단과대학 학생회 관련 행사와기획, 업무를 처리하고 리더십을 키울 수 있었습니다. 
 
+- company: 컴퓨터 그래픽스 학부연구참여
+  position: 학부연구참여
+  duration: 2017. 03 - 2017. 06
+  summary: 비주얼 컴퓨팅 연구실에서 컴퓨터 그래픽스 관련 UROP(학부연구참여)를 진행하고 있습니다. Blender라는 툴로 python을 사용하여 real-time rendering을 구현하였습니다. 
 
-# Front Desk Attendant
-- company: Simpson Lazer Tag
-  position: Front Desk Attendant
-  duration:   Jun, 1975  &mdash; May, 1978
-  summary: Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.
+- company: 진인사컴퍼니
+  position: Front-End Developer
+  duration: 2017. 06 - 2018. 01
+  summary: 진인사컴퍼니에서 어드민 페이지의 프론트엔드 개발을 담당했습니다.
