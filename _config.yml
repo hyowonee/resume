@@ -16,7 +16,7 @@ resume_contact_email:           "popopowon@gmail.com"
 # resume_contact_telephone:       "555-7334"
 # resume_contact_address:         "742 Evergreen Terrace, Springfield"
 # resume_header_contact_info: "742 Evergreen Terrace, Springfield | 555-7334 | homerjsimpson@youremailaddress.com"
-resume_header_intro: "<p>iOS 개발자를 위해서 열심히 공부하고 있습니다!</p>\n<p><a>https://hyowonee.github.io/</a> 블로그에 공부한 내용을 업로드하고 있습니다.</p>"
+resume_header_intro: "<p>iOS 개발자를 위해서 열심히 공부하고 있습니다!</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -45,7 +45,7 @@ resume_social_links:
   resume_facebook_url:          "https://facebook.com/popopowon"
   # resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://hyowonee.github.io"
+  resume_blog_url:           "http://hyowonee.github.io"
 resume_print_social_links:      true
 
 # Design settings
