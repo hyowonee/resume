@@ -45,7 +45,7 @@ resume_social_links:
   resume_facebook_url:          "https://facebook.com/popopowon"
   # resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_blog_url:           "http://hyowonee.github.io"
+  resume_website_url:           "http://hyowonee.github.io"
 resume_print_social_links:      true
 
 # Design settings
